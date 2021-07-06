@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f3397;
+    color: white;
+    height: 92px;
+
+    border-bottom:2px solid rgb(0,0,0);
+    padding-bottom:10px;
+}
+
+.content{
+    font-family: 'Potta One', cursive;
+}
+
+.row{
+    background: linear-gradient(116.41deg, #007bff  20.82%, #6bc3f3 93.88%);
+}
+.column1{
+    
+    position: relative;
+    float: right;
+    right: 30px;
+    width: 25vw;
+    padding: 50px 0;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+
+}
+
+.column2{
+    
+    position: relative;
+    float: left;
+    bottom:10px;
+    left: 180px;
+    width: 28vw;
+    padding: 50px 0;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+
+.shadowbox {
+    width: 35em;
+    height: 250px;
+    border: 1px solid #333;
+    box-shadow: 10px 8px 5px #444;
+    padding: 18px 22px;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+  }
+
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    background: linear-gradient(116.41deg, #007bff  20.82%, #6bc3f3 93.88%);
+  }
+
+
+.logo{
+    padding: 0 10px;
+
+}
+.logo img{
+    width: 30px;
+}
+
+.toolbar-item button{
+    cursor: pointer !important;
+    color: white !important;
+    border: 1px solid white !important;
+    border-radius: 15px !important;
+    padding: 5px 14px !important;
+}
+
+footer{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f3397;
+    color: white;
+    height: 92px;
+}
